@@ -11,7 +11,8 @@ estado: borrador #borrador | completa
 ## Qué debía lograr hoy
 
 - ⁠[✅] Comprender los conceptos base de electricidad y electrónica (V, I, R, P, AC/DC)
-- [❌] Conocer componentes y equipos de medición, evitar errores típicos de montaje 
+- [❌] Conocer componentes y equipos de medición
+- [✅]Evitar errores típicos de montaje 
 - [✅]Construir un primer circuito funcional con el temporizador 555, midiendo y comparando los resultados con la teoría.
 
 ## Qué usé
@@ -39,6 +40,12 @@ de igual manera usamos el mismo circuito pero en lugar de utilizar el capasitor 
 
 Despues utilizanos un Osciloscopio el cual nos permitio ver una grafica de las hondas electricas que se estaban generando al momento de utilizar estos circuitos
 
+| Magnitud | Capacitor electrónico | Capacitor cerámico |
+| --- | --- | --- |
+| Frecuencia | 27.78 Hz |39.33 Hz  |
+|periodo|36 ms|39 ms|
+|voltaje pico a pico|5 V|5 V|
+
 En el circuito en el cual utilisamos el capasitor bipolar podemos notar que se crean elevaciones momentanias y constantes en la electricidad
 
 ![parpadeo](../imgs/parpadeo.jpg)
@@ -49,11 +56,7 @@ Y al momento de utilizar el capasitor ceramico podemos notar que en realidad lo 
 ![rapido](../imgs/rapido.jpg)
 ![rapidolineas](../imgs/rapidolineas.jpg)
 
-| Magnitud | Capacitor electrónico | Capacitor cerámico |
-| --- | --- | --- |
-| Frecuencia | 27.78 Hz |39.33 Hz  |
-|periodo|36 ms|39 ms|
-|voltaje pico a pico|5 V|5 V|
+
 
 ## Qué falló y cómo lo resolví
 

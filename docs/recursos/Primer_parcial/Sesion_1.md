@@ -54,17 +54,22 @@ Despues utilizamos los comandos de git para guardar y subir nuestro proceso a la
 
 ```bash
  git pull
+
  git add .
+
  git commit -m ""
+
  git push
+
  git status
  ```
 
 ## Qué falló y cómo lo resolví
-Me sorprendio la facilidad de su uso y la variedad de comandos diferentes que tiene esta plataforma
+Me sorprendio la facilidad de su uso y la variedad de comandos diferentes que tiene esta plataforma.
 
 ## Qué aprendí
-Aprendi a usar Virtual Studio Code el cual pense que era una herramienta más compleja de lo que en realidad es, se me facilito familiarizarme con sus comandos y uso, y ya tengo una idea clara de las entregas que voy a realizar durante todo este parcial y de como tienen que hacerse
+
+Aprendí a utilizar esta herramienta, la cual me será de gran ayuda para poder documentar todos mis trabajos de una manera más organizada. además, considero que es una herramienta muy útil porque se adapta a las necesidades de lo que estoy estudiando y me permite presentar la información de una forma más clara y estructurada.
 
 ## Siguiente paso
-Aprendí a utilizar esta herramienta, la cual me será de gran ayuda para poder documentar todos mis trabajos de una manera más organizada. Además, considero que es una herramienta muy útil porque se adapta a las necesidades de lo que estoy estudiando y me permite presentar la información de una forma más clara y estructurada.
+Mejorar mi capasidad de uso y aprender a utilizar el formato para la entrega de las demas sesiones.

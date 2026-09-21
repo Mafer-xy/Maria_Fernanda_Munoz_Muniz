@@ -45,14 +45,14 @@ estado: borrador #borrador | completa
 
 ## Qué falló y cómo lo resolví
 
-- **Síntoma:** ...
-- **Cómo lo encontré:** ...
-- **Solución:** ...
+- **Síntoma:** Al momento de generar que dos motores intercalaran entre girar a la izquierda y derecha solo podia generar que se moviera uno
+- **Cómo lo encontré:** Al momento de iniciar la simulación solo un motor se movia, mientras que el otro no hacia nada
+- **Solución:** Me funciono cambiar el OUTPUT de uno de los motores, de esa manera ambos funcionaron correctamente
 
 ## Qué aprendí
-*3 a 5 líneas, con tus palabras. No es resumen del tema: es qué entendiste TÚ que antes no.*
+Aprendi los nombres de los motores y de la excistencia del Servo, me parecio muy interesante como se genera que un motor gire de un lado al otro y el como para que este pueda hacer eso tiene que elevar sus niveles de energia para poder, primero que todo, detenerse y despues de eso girar a la misma velocidad pero en otra dirección, por eso mismo tambien me hize mas conciente de lo precabida que tengo que ser con la cantidad de energia que le doy a un motor, ya que si estoy al limite solo con que avanze, al momento de cambiar de dirección este se puede exceder y generar un fallo que dañe el motor.
 
 ## Siguiente paso
-Utilizar estos materiales en fisico para comprobar que esta teoria estubo correcta
+Utilizar estos materiales en fisico para comprobar que esta teoria estubo correcta.
 
 
