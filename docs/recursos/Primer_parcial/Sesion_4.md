@@ -1,12 +1,12 @@
 ---
-titulo: "Sesión 4 — como hice mi primer circuito"
+titulo: "Sesión 4 — Utilizando arduino UNO"
 fecha: 2026-09-11
 autor: "María Fernanda Muñoz Muñiz"
 equipo: "Fernanda Muñoz y Mario Osorio"
 estado: borrador #borrador | completa 
 ---
 
-# Utilizando arduino UNO
+# Sesión 4 - Utilizando arduino UNO 
 
 ## Qué debía lograr hoy
   
@@ -27,8 +27,7 @@ estado: borrador #borrador | completa
 
 
 ## Qué hice y qué pasó (evidencia)
-*2–4 fotos o capturas TUYAS, cada una con un pie de foto de una línea diciendo qué muestra.
-Si mediste algo, va la tabla — la tabla ES la evidencia.*
+
 ![7](../imgs/7.jpg)
 
 ![1](../imgs/1.png)
@@ -42,15 +41,9 @@ Si mediste algo, va la tabla — la tabla ES la evidencia.*
 ![5](../imgs/5.png)
 
 ![6](../imgs/6.png)
-![Pie de foto: qué muestra esta imagen](img/sesionN_1.jpg)
 
-| Magnitud | Teórico | Medido | % error |
-| --- | --- | --- | --- |
-|  |  |  |  |
 
 ## Qué falló y cómo lo resolví
-*Mínimo una. Si de verdad nada falló, escribe qué te sorprendió.
-Formato: síntoma → cómo lo encontré → solución.*
 
 - **Síntoma:** ...
 - **Cómo lo encontré:** ...
@@ -60,6 +53,6 @@ Formato: síntoma → cómo lo encontré → solución.*
 *3 a 5 líneas, con tus palabras. No es resumen del tema: es qué entendiste TÚ que antes no.*
 
 ## Siguiente paso
-*Una línea: qué sigue antes de la próxima sesión.*
+Utilizar estos materiales en fisico para comprobar que esta teoria estubo correcta
 
 

@@ -1,6 +1,6 @@
 ---
 titulo: "Sesión 5 — Mecanismos"
-fecha: 2026-08-28
+fecha: 2026-09-18
 autor: "María Fernanda Muñoz Muñiz"
 equipo: "Fernanda Muñoz y Mario Osorio"
 estado: borrador #borrador | completa 
@@ -37,21 +37,24 @@ Si mediste algo, va la tabla — la tabla ES la evidencia.*
 
 | Estación | ¿Qué transforma? | relación *i* estimada | ¿Reversible o autobloqueante? |¿Dónde lo has visto en la vida real?|¿Donde serviría en el carro o en un proyecto tuyo?|
 | --- | --- | --- | --- | --- | --- |
-|A  |  |  |  |  |  |  |
+|A. Diferencial  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
-|B |  |  |  |  |  |  |
+|B. Cicloidal |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
-|C |  |  |  |  |  |
+|C. Cardán |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
-|D |  |  |  |  |  |
+|D. Obturador |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
-|E1 |  |  |  |  |  |
+|E1. Cremallera |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
-|E2 |  |  |  |  |  |
+|E1. Ginebra |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+|E2. Espiral |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+|E2. Sinfín multi-hilo + corona |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
 
 ## Qué falló y cómo lo resolví
-*Mínimo una. Si de verdad nada falló, escribe qué te sorprendió.
-Formato: síntoma → cómo lo encontré → solución.*
 
 - **Síntoma:** ...
 - **Cómo lo encontré:** ...
@@ -61,4 +64,4 @@ Formato: síntoma → cómo lo encontré → solución.*
 *3 a 5 líneas, con tus palabras. No es resumen del tema: es qué entendiste TÚ que antes no.*
 
 ## Siguiente paso
-*Una línea: qué sigue antes de la próxima sesión.*
+Analizar cada engranaje y encontrar los mas optimos para realizar los carros del proyecto final

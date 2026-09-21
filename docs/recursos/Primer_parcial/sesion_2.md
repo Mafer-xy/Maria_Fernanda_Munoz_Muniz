@@ -6,7 +6,7 @@ equipo: "Fernanda Muñoz y Mario Osorio"
 estado: borrador #borrador | completa 
 ---
 
-# Como hice mi primer circuito
+# Sesión 2 - Como hice mi primer circuito
 
 ## Qué debía lograr hoy
 
@@ -17,9 +17,11 @@ estado: borrador #borrador | completa
 ## Qué usé
 
 - Protoboard
-- Resistores ()
+- Jumpers
+- Resistores (1KΩ/15KΩ/220Ω)
 - LEDs (diodos emisores de luz)
-- Capacitores (Bipolar y ceramico)
+- Capacitor Bipolar (33μF/10μF)
+- Capacitor ceramico 10μF
 - Temporizador 555
 - Multimetro digital
 - osciloscopio
@@ -27,7 +29,7 @@ estado: borrador #borrador | completa
 
 
 ## Qué hice y qué pasó (evidencia)
-En la segunda sesion, yo junto con mi compañero de equipo realizamos un circuito de encendido de led para posteriormente utilizar diferentes tipos de capasitores y analizar sus diferencias
+Realizamos un circuito de encendido de led utilisando un temporizador 555 para posteriormente utilizar diferentes tipos de capasitores y analizar sus diferencias
 
 Primero creamos un circuito con led en el cual utilizamos un capasitor bipolar generando que este parpadeara de forma constante
 
@@ -37,12 +39,12 @@ de igual manera usamos el mismo circuito pero en lugar de utilizar el capasitor 
 
 Despues utilizanos un Osciloscopio el cual nos permitio ver una grafica de las hondas electricas que se estaban generando al momento de utilizar estos circuitos
 
-en el circuito en el cual utilisamos el capasitor bipolar podemos notar que se crean elevaciones momentanias y constantes en la electricidad
+En el circuito en el cual utilisamos el capasitor bipolar podemos notar que se crean elevaciones momentanias y constantes en la electricidad
 
 ![parpadeo](../imgs/parpadeo.jpg)
 ![parpadeolineas](../imgs/parpadeolineas.jpg)
 
-Y al momento de utilizar el capasitor ceramico podemos notar que en realidad lo que estaba susediendo es que el led se estaba consatantemente prendiendo y apagando, a una velocidad tan rapida que el ojo humano no lo puede persivir
+Y al momento de utilizar el capasitor ceramico podemos notar que en realidad lo que estaba sucediendo es que el led se estaba constantemente prendiendo y apagando, a una velocidad tan rapida que el ojo humano no lo puede persivir
 
 ![rapido](../imgs/rapido.jpg)
 ![rapidolineas](../imgs/rapidolineas.jpg)
@@ -54,17 +56,15 @@ Y al momento de utilizar el capasitor ceramico podemos notar que en realidad lo 
 |voltaje pico a pico|5 V|5 V|
 
 ## Qué falló y cómo lo resolví
-*Mínimo una. Si de verdad nada falló, escribe qué te sorprendió.
-Formato: síntoma → cómo lo encontré → solución.*
 
-•⁠  ⁠*Síntoma:* ...
-•⁠  ⁠*Cómo lo encontré:* ...
-•⁠  ⁠*Solución:* ...
+- ⁠*Síntoma:* Al conectar el led al circuito este no parpadeaba ni prendia, pero al momento de hacer contacto con uno de los jumpers, se prendia el LED, funcionando como boton
+-  ⁠*Cómo lo encontré:* Mi compañero y yo estabamos buscando la razon de la falla y al tocar los jumpers notamos que prendia, entonces uno por uno buscamos cual fue la razon del prendido y encontramos el jumper que causo la reación
+-  ⁠*Solución:* Concideramos que era más sencillo desconectar todo y revisar que cada componente funcionara de manera correcta
 
 ## Qué aprendí
-3 a 5 líneas, con tus palabras. No es resumen del tema: es qué entendiste TÚ que antes no.
+Aprendí que incluso con componentes como los capacitores, se tiene que ser muy específico con el tipo de material del cual están hechos y con la cantidad de frecuencia que soportan para poder conseguir el resultado deseado. También me sorprendió el funcionamiento de las lámparas LED, ya que estas iluminan parpadeando a una velocidad muy grande en vez de solo mantenerse prendidas, y es por eso que, al momento de que empiezan a fallar, se puede ver un leve parpadeo.
 
 ## Siguiente paso
-Una línea: qué sigue antes de la próxima sesión.
+Practicar con más tipos de capasitores y aprender a ajustafr las graficas el osciloscopio
 
 

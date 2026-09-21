@@ -6,7 +6,7 @@ equipo: "Fernanda Muñoz y Mario Osorio"
 estado: borrador #borrador | completa 
 ---
 
-# Como utilize un arduino
+# Sesión 3 - Como utilize un arduino
 
 ## Qué debía lograr hoy   
 
@@ -32,8 +32,7 @@ estado: borrador #borrador | completa
 - (Opcional) VS Code + Extensión Arduino.
 
 ## Qué hice y qué pasó (evidencia)
-*2–4 fotos o capturas TUYAS, cada una con un pie de foto de una línea diciendo qué muestra.
-Si mediste algo, va la tabla — la tabla ES la evidencia.*
+
 ![arduino](../imgs/arduino.jpeg)
 
 ![1_0](../imgs/prendeapaga.jpeg)
@@ -56,23 +55,19 @@ Si mediste algo, va la tabla — la tabla ES la evidencia.*
 ![bluetooth](../imgs/oliverbaja.jg)
 ![Pie de foto: qué muestra esta imagen](img/sesionN_1.jpg)
 
-| Magnitud | Teórico | Medido | % error |
-| --- | --- | --- | --- |
-|  |  |  |  |
 
 ## Qué falló y cómo lo resolví
-*Mínimo una. Si de verdad nada falló, escribe qué te sorprendió.
-Formato: síntoma → cómo lo encontré → solución.*
 
-•⁠  ⁠*Síntoma:* ...
-•⁠  ⁠*Cómo lo encontré:* ...
-•⁠  ⁠*Solución:* ...
+
+-  ⁠*Síntoma:* El circuito fallaba y funcionada de manera diferente a la manera que se supone debia funcionar 
+-  ⁠*Cómo lo encontré:* Al ver que el LED y el boton fucionaban de manera erronea revisamos cada conección del ESP32 y encontramos que en ciertas conecciones no generaba ninguna reacción
+-  ⁠*Solución:* Cambiamos la conección de INPUT de un led y de esa manera se genero la reacción esperada de la programación
 
 ## Qué aprendí
-3 a 5 líneas, con tus palabras. No es resumen del tema: es qué entendiste TÚ que antes no.
+3 a 5 líneas, con tus palabras. No es resumen del tema: es qué entendiste TÚ que antes no.!!!!!!!!!!!!!!!!
 
 ## Siguiente paso
-Una línea: qué sigue antes de la próxima sesión.
+Mejorar el uso del bluetooth y adaptarlo al movimiento de un motor
 
-El la clase del dia viernes 4 de septiembre realizamos una practica sobre las tablas de arduino
+
 
