@@ -11,7 +11,7 @@ estado: borrador #borrador | completa
 ## Qué debía lograr hoy
   
 
-- [✅]  Controlar un motor DC con puente H (sentido de giro y velocidad por PWM) y un servo
+- [✅] Controlar un motor DC con puente H (sentido de giro y velocidad por PWM) y un servo
 - [❌] Midiendo corriente y comportamiento bajo carga — los músculos de tu carro.
 
 ## Qué usé
