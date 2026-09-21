@@ -52,7 +52,6 @@ utilizamos estos comandos de Markdown:
 
 Despues utilizamos los comandos de git para guardar y subir nuestro proceso a la pagina:
 
-```bash
  git pull
 
  git add .
@@ -62,10 +61,10 @@ Despues utilizamos los comandos de git para guardar y subir nuestro proceso a la
  git push
 
  git status
- ```
+
 
 ## Qué falló y cómo lo resolví
-Me sorprendio la facilidad de su uso y la variedad de comandos diferentes que tiene esta plataforma.
+No tuve ningun problema al momento de realisar la practica pero me sorprendio la facilidad de su uso y la variedad de comandos diferentes que tiene esta plataforma.
 
 ## Qué aprendí
 

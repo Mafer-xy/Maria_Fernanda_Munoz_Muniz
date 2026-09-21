@@ -28,19 +28,151 @@ estado: borrador #borrador | completa
 
 ## Qué hice y qué pasó (evidencia)
 
-![7](../imgs/7.jpg)
+Lo primero que hicimos fue hacer que un motor girara para despues hacer que este cambie de dirección en su rotación
 
-![1](../imgs/1.png)
+```Cpp
+void setup()
+{
+    pinMode(5,OUTPUT);
+    pinMode(6,OUTPUT);
+    pinMode(7,OUTPUT);
+}
 
-![2](../imgs/2.png)
-
-![3](../imgs/3.png)
-
+void loop()
+{
+    digitalWrite(7,1);
+    digitalWrite(6,0);
+    digitalWrite(5,1);
+    delay(1000);
+}
+```
 ![4](../imgs/4.png)
 
+
+```Cpp
+void setup()
+{
+    pinMode(5,OUTPUT);
+    pinMode(6,OUTPUT);
+    pinMode(7,OUTPUT);
+}
+
+void loop()
+{
+    digitalWrite(7,1);
+    digitalWrite(6,0);
+    digitalWrite(5,1);
+    delay(1000);
+    digitalWrite(7,0);
+    digitalWrite(6,1);
+    digitalWrite(5,1);
+    delay(1000);
+}
+```
 ![5](../imgs/5.png)
 
+Despues para hacer que dos motores se movieran tomamos en cuenta el diagrama de puentes H
+![7](../imgs/7.jpg)
+
+```Cpp
+void setup()
+{
+    pinMode(6,OUTPUT);
+    pinMode(7,OUTPUT);
+    pinMode(2,OUTPUT);
+    pinMode(3,OUTPUT);
+
+    digitalWrite(5,1);
+}
+
+void loop()
+{
+    pinMode(5,OUTPUT);
+    digitalWrite(7,1);
+    digitalWrite(3,1);
+    digitalWrite(6,0);
+    digitalWrite(2,0);
+    delay(1000);
+    digitalWrite(7,0);
+    digitalWrite(3,0);
+    digitalWrite(6,1);
+    digitalWrite(2,1);
+    delay(1000);
+}
+```
 ![6](../imgs/6.png)
+
+Por ultimo generamos que los dos motores, más aparte el servo giraran de cierta forma organizada, haciendo que el motor se vaya a distintas direcciones en un patron
+```Cpp
+#include <Servo.h>
+
+Servo Motor_1;
+
+void setup()
+{
+  //SERVO
+  Motor_1.attach(10);
+  
+  //MOTOR 1
+  pinMode(6, OUTPUT);//out 1
+  pinMode(7, OUTPUT);//out 2
+  pinMode(9, OUTPUT);//ENABLE
+  analogWrite(9,127);
+  
+  //MOTOR 2
+  pinMode(2, OUTPUT);//out 3
+  pinMode(3, OUTPUT);//out 4
+  pinMode(5, OUTPUT);//ENABLE
+  analogWrite(5,127);
+}
+
+void adelante(){
+  digitalWrite(6,1);
+  digitalWrite(7,0);
+  digitalWrite(2,1);
+  digitalWrite(3,0);
+}
+
+void atras(){
+  digitalWrite(6,0);
+  digitalWrite(7,1);
+  digitalWrite(2,0);
+  digitalWrite(3,1);
+}
+
+void der (){
+  digitalWrite(6,1);
+  digitalWrite(7,0);
+  digitalWrite(2,1);
+  digitalWrite(3,0);
+}
+
+void izq (){
+  digitalWrite(6,0);
+  digitalWrite(7,1);
+  digitalWrite(2,0);
+  digitalWrite(3,1);
+}
+  
+  
+void loop()
+{
+  adelante();
+  Motor_1.write(0);
+  delay(1000);
+  atras();
+  Motor_1.write(180);
+  delay(1000);
+  der();
+  Motor_1.write(90);
+  delay(1000);
+  izq();
+  Motor_1.write(270);
+  delay(1000);
+}
+```
+![servo](../imgs/servo.png)
+
 
 
 ## Qué falló y cómo lo resolví
