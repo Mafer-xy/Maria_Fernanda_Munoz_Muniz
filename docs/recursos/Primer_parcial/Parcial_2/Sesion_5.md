@@ -46,12 +46,12 @@ estado: borrador #borrador | completa
 
 ## Qué falló y cómo lo resolví
 
-- **Síntoma:** ...
-- **Cómo lo encontré:** ...
-- **Solución:** ...
+- **Síntoma:** En los calculos de velocidad de engranaje me daba una velocidad mayor a la del resultado
+- **Cómo lo encontré:** Al momento de sacar la velocidad que daria el engranaje que estabamos calculando me daba una mayor a la del profesor 
+- **Solución:** Me explicaron que la fuerza se toma en cuenta desde el centro del engranaje y entre mas se aleja del centro se necesita cada vez mas fuerza, por eso la velocidad disminuye
 
 ## Qué aprendí
-*3 a 5 líneas, con tus palabras. No es resumen del tema: es qué entendiste TÚ que antes no.*
-
+Aprendí que existe una gran variedad de mecanismos los cuales se pueden utilizar en lugares donde nunca los pensarias y el como estas pueden cambiar ejes, ser intermitentes o como se transladan dependiendo de su rotación.
+Tambien aprendi las formulas y los conceptos de transformación de velocidades de rotación tomando en cuenta la velocidad, los dientes, etc.
 ## Siguiente paso
 Analizar cada engranaje y encontrar los mas optimos para realizar los carros del proyecto final

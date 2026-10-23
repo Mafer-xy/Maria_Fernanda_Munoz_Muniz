@@ -21,15 +21,13 @@
 
 El ESP32 manda las señales de control al puente H, y el puente H es el que entrega la corriente a los motores, ya que el ESP32 no puede alimentarlos directamente. La batería pasa primero por el interruptor para poder encender y apagar todo el carrito. El pin STBY del driver lo conecté directo a 3.3 V para que siempre esté habilitado.
 
-![Conexiones en la protoboard](../../recursos/imgs/carrito_electronica.jpeg)
-
-ESP32 y puente H montados en la protoboard; cables rojos y negros hacia los motores y el portapilas.
-
 | Desde | Hacia | Descripción |
-| ----- | ----- | ----------- |
-| Batería (+) | Interruptor | Encendido / apagado |
-| Interruptor | VM del puente H y VIN del ESP32 | Alimentación de 6 V |
+| :-----: | :-----: | :-----------: |
+| Batería (+) | Interruptor | Encendido / apagado de los motores |
+| Interruptor | VM del puente H | Alimentación de 6 V |
+| Power bank (5 V) | ESP32 | Alimentación del microcontrolador |
 | Batería (−) | GND común | Tierra compartida por todo el circuito |
+| GND de ESP32 | GND común | Tierra compartida con el puente H y la batería |
 | ESP32 GPIO 17 | AIN1 | Dirección motor izquierdo |
 | ESP32 GPIO 16 | AIN2 | Dirección motor izquierdo |
 | ESP32 GPIO 23 | PWMA | Velocidad motor izquierdo |
@@ -42,7 +40,7 @@ ESP32 y puente H montados en la protoboard; cables rojos y negros hacia los moto
 | BO1 / BO2 | Motor derecho | Salida de potencia |
 
 | Medición | Valor |
-| -------- | ----- |
+| :--------: | :-----: |
 | Voltaje de la batería | _ V |
 | Voltaje en el motor (PWM 255) | _ V |
 
@@ -62,4 +60,4 @@ Aprendí por qué se necesita un puente H: el ESP32 solo da señales de baja cor
 
 ## Siguiente paso
 
-Soldar las conexiones en una placa perforada para que no se suelten los cables con la vibración del carrito.
+Terminar el chasis
